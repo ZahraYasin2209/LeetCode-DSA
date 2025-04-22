@@ -14,7 +14,7 @@ public:
         {
             if(nums[i] != 0)                                    // if element is not zero
             {
-                nums[lastNonZeroIndex] = nums[i];
+                nums[lastNonZeroIndex] = nums[i];               
                 lastNonZeroIndex++;
             }
         }
@@ -29,17 +29,19 @@ public:
 
 int main() {
     Solution sol;
-    vector<int> nums = {0, 1, 0, 3, 12};
+    vector<int> nums = {0, 1, 0, 3, 12};            
 
     sol.moveZeroes(nums);
 
-    for (int num : nums) {
+    for (int num : nums) {             
         cout << num << " ";            // 1 3 12 0 0
     }
     cout << endl;
 
     return 0;
 }
+
+// Note: In case of only one element, if 0 --> return zero, if non-zero --> return that non-zero element
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
