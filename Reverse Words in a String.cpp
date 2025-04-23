@@ -9,7 +9,7 @@ class Solution {
 public:
     string reverseWords(string s) {
         vector<string> words;
-        string word;
+        string word;                    // for storing each word (character by character)
 
         // Split the string into words
         for(int i = 0; i < s.size(); i++) {
