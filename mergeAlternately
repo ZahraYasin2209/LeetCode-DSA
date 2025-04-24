@@ -32,7 +32,7 @@ int main(){
     string word2 = "uvwxyz";
 
     string merged = sol.mergeAlternately(word1, word2);
-    cout << "MERGED STRING: " << merged << endl;
+    cout << "MERGED STRING: " << merged << endl;            // MERGED STRING: aubvcwxyz
     return 0;
 }
 
