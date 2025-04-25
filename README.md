@@ -24,7 +24,8 @@ Each solution is written with clarity and efficiency in mind. Alongside the impl
 
 Each file corresponds to a specific LeetCode problem and is named accordingly:
 
-productOfArrayExceptSelf.cpp → Solution to “Product of Array Except Self” mergeAlternatively.cpp → Solution to “Find Pivot Index” ...
+`productOfArrayExceptSelf.cpp` → Solution to `“Product of Array Except Self”` 
+`mergeAlternatively.cpp` → Solution to `“Merge Strings Alternatively”` ...
 
 
 ## Getting Started
@@ -36,7 +37,7 @@ productOfArrayExceptSelf.cpp → Solution to “Product of Array Except Self” 
 
 ### Running Solutions
 
-1. Clone the repository:
+1. Clone the repository: 
 git clone https://github.com/ZahraYasin2209/LeetCode-DSA.git cd LeetCode-DSA
 
 
