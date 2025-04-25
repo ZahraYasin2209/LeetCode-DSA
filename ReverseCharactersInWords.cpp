@@ -1,4 +1,4 @@
-// Problem Statement: Reverse each word in a string to generate new words
+// Problem Statement: Reverse characters of each word in a string to generate new words
 
 #include <iostream>
 #include <vector>
