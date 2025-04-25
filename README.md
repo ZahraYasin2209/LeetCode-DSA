@@ -24,7 +24,7 @@ Each solution is written with clarity and efficiency in mind. Alongside the impl
 
 Each file corresponds to a specific LeetCode problem and is named accordingly:
 
-twoSum.cpp → Solution to “Two Sum” pivotIndex.cpp → Solution to “Find Pivot Index” ...
+productOfArrayExceptSelf.cpp → Solution to “Product of Array Except Self” mergeAlternatively.cpp → Solution to “Find Pivot Index” ...
 
 
 ## Getting Started
