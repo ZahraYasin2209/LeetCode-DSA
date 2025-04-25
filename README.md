@@ -69,4 +69,4 @@ If you have any questions, suggestions, or ideas, feel free to open an issue on 
 
 ---
 
-## Thanks for stopping by — happy coding! 🎉
+### Thanks for stopping by — happy coding! 🎉
