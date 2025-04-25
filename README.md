@@ -42,11 +42,10 @@ Each file corresponds to a specific LeetCode problem and is named accordingly:
    git clone https://github.com/ZahraYasin2209/LeetCode-DSA.git
    cd LeetCode-DSA
 
-
 2. Compile and run any file:
-g++ twoSum.cpp -o twoSum
-./twoSum
-
+   ```bash
+   g++ twoSum.cpp -o twoSum
+  ./twoSum
 
 ## Contributing
 
