@@ -24,7 +24,7 @@ Each solution is written with clarity and efficiency in mind. Alongside the impl
 
 Each file corresponds to a specific LeetCode problem and is named accordingly:
 
-`productOfArrayExceptSelf.cpp` → Solution to `“Product of Array Except Self”` 
+`productOfArrayExceptSelf.cpp` → Solution to `“Product of Array Except Self”`— 
 `mergeAlternatively.cpp` → Solution to `“Merge Strings Alternatively”` ...
 
 
