@@ -4,7 +4,6 @@
 // after executing all commands. (cd /,cd ., cd .. etc)
 
 
-
 #include <iostream>
 #include <vector>
 #include <string>
@@ -60,7 +59,7 @@ int main() {
     vector<string> commands = {"cd folder1", "cd folder2", "cd ..", "cd folder3", "cd ."};
     
     string finalPath = sol.changeDirectorySimulation(commands);
-    cout << "Final Path: " << finalPath << endl;  // Output: /folder1/folder3
+    cout << "Final Path: " << finalPath << endl;              // Output: /folder1/folder3
 
     return 0;
 }
