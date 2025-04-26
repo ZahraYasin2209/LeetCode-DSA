@@ -45,7 +45,7 @@ Each file corresponds to a specific LeetCode problem and is named accordingly:
 2. Compile and run any file:
    ```bash
    g++ twoSum.cpp -o twoSum
-  ./twoSum
+   ./twoSum
 
 ## Contributing
 
