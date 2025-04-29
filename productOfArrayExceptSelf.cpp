@@ -78,7 +78,7 @@ int main() {
 
     // Output the result
     for (int num : result) {
-        cout << num << " ";         // 24  12  8  6
+        cout << num << " ";           // 24  12  8  6
     }
     cout << endl;
 
