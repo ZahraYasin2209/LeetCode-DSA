@@ -23,7 +23,7 @@ public:
             chars[write] = currentCharacter;
             write++;
 
-            if(counter > 1)
+            if(counter > 1)                            // existance of character is more than one
             {
                 string counterString = to_string(counter);     
                 for(int k = 0; k < counterString.length(); k++)
@@ -46,8 +46,8 @@ int main() {
 
     int newLength = sol.compress(chars);
 
-    cout << "Compressed length: " << newLength << endl;            // Compressed length: 4
-    cout << "Compressed chars: ";                                  // Compressed chars: a b 1 2  (12 as 1 2)
+    cout << "Compressed length: " << newLength << endl;               // Compressed length: 4
+    cout << "Compressed chars: ";                                     // Compressed chars: a b 1 2  (12 as 1 2)
     for (int i = 0; i < newLength; ++i) {
         cout << chars[i] << " ";
     }
