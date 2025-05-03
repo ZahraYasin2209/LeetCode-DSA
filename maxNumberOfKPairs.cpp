@@ -34,7 +34,7 @@ class Solution {
                     right--;
                 }
             }
-            return operations;
+            return operations;                       // returning number of operations to be performed
         }
 };
 
