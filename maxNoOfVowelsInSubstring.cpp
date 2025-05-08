@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
     public:
-        // Helper function to check if a character is a vowel
+        
         bool isVowel(char c)
         {
             if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
