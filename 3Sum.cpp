@@ -15,7 +15,8 @@ public:
         sort(nums.begin(), nums.end());  // Sort to use two pointers and skip duplicates
 
         int n = nums.size();
-        for (int i = 0; i < n - 2; i++) {
+        for (int i = 0; i < n - 2; i++) 
+        {
             if (i > 0 && nums[i] == nums[i - 1])  // Skip duplicates for i
                 continue;
 
@@ -26,7 +27,8 @@ public:
             {
                 int sum = nums[i] + nums[left] + nums[right];
 
-                if (sum == 0) {
+                if (sum == 0) 
+                {
                     result.push_back({nums[i], nums[left], nums[right]});
 
                     // Skip duplicates for left pointer
@@ -63,7 +65,8 @@ int main()
     for (const auto& triplet : triplets) 
     {
         cout << "[";
-        for (int i = 0; i < triplet.size(); i++) {
+        for (int i = 0; i < triplet.size(); i++) 
+        {
             cout << triplet[i];
             if (i < triplet.size() - 1) cout << ", ";
         }
